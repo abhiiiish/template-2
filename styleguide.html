@@ -1,0 +1,576 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<title>Styleguide - Katerina</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<script src="assets/js/detect-support.js"></script>
+	<link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAQMAAABJtOi3AAAABlBMVEUAAADxUi3cM8OLAAAAAXRSTlMAQObYZgAAAB5JREFUCNdjAIP6B+z/0IkKBgY53ATJAL95WF0AAgAxXBopwtkWFwAAAABJRU5ErkJggg==">
+	<link rel="stylesheet" href="assets/css/materialdesignicons.css">
+	<link rel="stylesheet" href="assets/css/fancybox.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="navbar-sticky">
+	<a href="#header-title" class="skip-link screen-reader-text">Skip to the content</a>
+
+	<div class="main-content-wrapper">
+		<header id="top-header" class="site-header">
+			<div class="wrapper">
+				<div class="site-identity">
+					<h1>
+						<a href="index.html" class="site-title"><img src="assets/images/logo.png" class="custom-logo" width="115" height="40" alt="Katerina"></a>
+					</h1>
+					<p class="site-description screen-reader-text">Portfolio &amp; Photography Template</p>
+				</div>
+				<div id="menu-toggle" class="mobile-menu-toggle">
+					<a href="#menu-main" title="Toggle menu"><em class="mdi mdi-menu"></em><em class="mdi mdi-close"></em></a>
+				</div>
+				<nav class="main-navigation">
+					<ul id="menu-main" class="menu">
+						<li class="menu-item-has-children">
+							<a href="index.html">Home</a>
+							<ul class="sub-menu">
+								<li><a href="index.html">Displacement slider</a></li>
+								<li><a href="index-image.html">Parallax image</a></li>
+								<li><a href="index-video.html">Parallax video</a></li>
+							</ul>
+						</li>
+						<li class="menu-item-has-children">
+							<a href="portfolio.html">Portfolio</a>
+							<ul class="sub-menu">
+								<li><a href="portfolio.html">Grid + Justified</a></li>
+								<li><a href="portfolio-justified.html">Justified gallery</a></li>
+								<li><a href="portfolio-sequential.html">Sequential with filters</a></li>
+								<li><a href="single-project.html">Single project</a></li>
+							</ul>
+						</li>
+						<li class="menu-item-has-children">
+							<a href="shop.html">Shop</a>
+							<ul class="sub-menu">
+								<li><a href="shop.html">Right sidebar</a></li>
+								<li><a href="shop-wide.html">Fullwidth (3 cols)</a>
+								<li><a href="shop-checkout.html">Checkout</a>
+								<li><a href="shop-cart.html">Cart</a>
+								<li><a href="single-product.html">Single product</a></li>
+							</ul>
+						</li>
+						<li class="menu-item-has-children">
+							<a href="blog.html">Blog</a>
+							<ul class="sub-menu">
+								<li><a href="blog.html">Blog with sidebar</a></li>
+								<li><a href="single-post.html">Regular blog post</a></li>
+							</ul>
+						</li>
+						<li class="menu-item-has-children current-menu-parent">
+							<a href="styleguide.html">Features</a>
+							<ul class="sub-menu">
+								<li class="current-menu-item"><a href="styleguide.html">Styleguide</a></li>
+								<li class="menu-item-has-children">
+									<a href="#">Submenus</a>
+									<ul class="sub-menu">
+										<li><a href="#">Submenu item 1</a></li>
+										<li><a href="#">Submenu item 2</a></li>
+										<li><a href="#">Submenu item 3</a></li>
+									</ul>
+								</li>
+								<li><a href="404.html">404 not found</a></li>
+							</ul>
+						</li>
+						<li><a href="contact.html">Contact</a></li>
+						<li class="menu-item-scheme">
+							<a href="#" title="Toggle color scheme"><em class="mdi mdi-weather-night"></em><em class="mdi mdi-weather-sunny"></em><span>Toggle color scheme</span></a>
+						</li>
+						<li class="menu-item-cart">
+							<a href="shop-cart.html" title="Shopping cart"><em class="mdi mdi-cart-outline"></em><span class="cart-text">Shopping cart</span><span class="cart-total">3</span></a>
+						</li>
+						<li class="menu-item-search">
+							<a href="#searchform" title="Toggle search"><em class="mdi mdi-magnify"></em><em class="mdi mdi-close"></em></a>
+							<form class="searchform" method="get" action="index.html" role="search">
+								<label class="screen-reader-text">Search for:</label>
+								<input type="search" value="" name="s" placeholder="Search&hellip;">
+								<button type="submit"><em class="mdi mdi-magnify"></em><span class="screen-reader-text">Search</span></button>
+							</form>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<header id="header-title" class="page-title">
+			<div class="wrapper">
+				<h1 class="entry-title display">Styleguide</h1>
+				<h6 class="tagline">A list of common design elements</h6>
+			</div>
+		</header>
+
+		<div id="content" class="site-content">
+			<div class="wrapper">
+				<div class="entry-content">
+					<h2>01. Grid</h2>
+					<div class="block-columns">
+						<div class="block-column">
+							<div class="box min-box"></div>
+						</div>
+						<div class="block-column">
+							<div class="box min-box"></div>
+						</div>
+					</div>
+					<div class="block-columns">
+						<div class="block-column" style="flex-basis:33.33%"><!-- custom style used to set 1/3 width of grid -->
+							<div class="box min-box"></div>
+						</div>
+						<div class="block-column" style="flex-basis:66.66%"><!-- custom style used to set 2/3 width of grid -->
+							<div class="box min-box"></div>
+						</div>
+					</div>
+					<div class="block-columns">
+						<div class="block-column" style="flex-basis:75%"><!-- custom style used to set 3/4 width of grid -->
+							<div class="box min-box"></div>
+						</div>
+						<div class="block-column" style="flex-basis:25%"><!-- custom style used to set 1/4 width of grid -->
+							<div class="box min-box"></div>
+						</div>
+					</div>
+
+					<h2>02. Colors</h2>
+					<div class="block-columns">
+						<div class="block-column">
+							<h5 class="no-margin-bottom">Accent</h5>
+							<div class="box box-color accent-color"></div>
+						</div>
+						<div class="block-column">
+							<h5 class="no-margin-bottom">Complementary</h5>
+							<div class="box box-color complementary-color"></div>
+						</div>
+						<div class="block-column">
+							<h5 class="no-margin-bottom">Highlight</h5>
+							<div class="box box-color highlight-color"></div>
+						</div>
+					</div>
+					<div class="block-columns">
+						<div class="block-column">
+							<h5 class="no-margin-bottom">Header</h5>
+							<div class="box box-color body-background-color"></div>
+						</div>
+						<div class="block-column">
+							<h5 class="no-margin-bottom">Background</h5>
+							<div class="box box-color body-alt-background-color"></div>
+						</div>
+						<div class="block-column">
+							<h5 class="no-margin-bottom">Text</h5>
+							<div class="box box-color body-text-color"></div>
+						</div>
+					</div>
+
+					<h2>03. Typography</h2>
+					<h4>Body: System default stack</h4>
+					<div class="block-columns">
+						<div class="block-column">
+							<div class="box-typography text-body-font text-weight-regular">AaZz</div>
+							<p class="text-faded">Regular</p>
+						</div>
+						<div class="block-column">
+							<div class="box-typography text-body-font text-weight-bold">AaZz</div>
+							<p class="text-faded">Bold</p>
+						</div>
+					</div>
+
+					<h4>Headings: Questa Grande</h4>
+					<div class="block-columns">
+						<div class="block-column">
+							<div class="box-typography text-headings-font">AaZz</div>
+							<p class="text-faded">Regular</p>
+						</div>
+					</div>
+
+					<hr class="block-separator">
+
+					<div class="block-columns">
+						<div class="block-column">
+							<p class="text-uppercase"><strong>Display</strong> <br><span class="text-faded">Size: 45px — L-Height: 1.15 (52px)</span></p>
+						</div>
+						<div class="block-column">
+							<h1 class="display">Display</h1>
+						</div>
+					</div>
+					<div class="block-columns">
+						<div class="block-column">
+							<p class="text-uppercase"><strong>Heading H1</strong> <br><span class="text-faded">Size: 37px — L-Height: 1.15 (43px)</span></p>
+						</div>
+						<div class="block-column">
+							<h1>Heading 1</h1>
+						</div>
+					</div>
+					<div class="block-columns">
+						<div class="block-column">
+							<p class="text-uppercase"><strong>Heading H2</strong> <br><span class="text-faded">Size: 31px — L-Height: 1.15 (36px)</span></p>
+						</div>
+						<div class="block-column">
+							<h2>Heading 2</h2>
+						</div>
+					</div>
+					<div class="block-columns">
+						<div class="block-column">
+							<p class="text-uppercase"><strong>Heading H3</strong> <br><span class="text-faded">Size: 26px — L-Height: 1.15 (30px)</span></p>
+						</div>
+						<div class="block-column">
+							<h3>Heading 3</h3>
+						</div>
+					</div>
+					<div class="block-columns">
+						<div class="block-column">
+							<p class="text-uppercase"><strong>Heading H4</strong> <br><span class="text-faded">Size: 22px — L-Height: 1.15 (25px)</span></p>
+						</div>
+						<div class="block-column">
+							<h4>Heading 4</h4>
+						</div>
+					</div>
+					<div class="block-columns">
+						<div class="block-column">
+							<p class="text-uppercase"><strong>Heading H5</strong> <br><span class="text-faded">Size: 18px — L-Height: 1.35 (24px)</span></p>
+						</div>
+						<div class="block-column">
+							<h5>Heading 5</h5>
+						</div>
+					</div>
+					<div class="block-columns">
+						<div class="block-column">
+							<p class="text-uppercase"><strong>Heading H6</strong> <br><span class="text-faded">Size: 13px — L-Height: 1.35 (18px)</span></p>
+						</div>
+						<div class="block-column">
+							<h6>Heading 6</h6>
+						</div>
+					</div>
+					<div class="block-columns">
+						<div class="block-column">
+							<p class="text-uppercase"><strong>Body / Paragraph</strong> <br><span class="text-faded">Size: 15px — L-Height: 1.6 (24px)</span></p>
+						</div>
+						<div class="block-column">
+							<p>Whenever I go back to the <ins>guest house</ins> during <em>the morning</em> to copy the contract, <strong>the gentlemen</strong> are still there <mark>eating</mark> their breakfasts.</p>
+						</div>
+					</div>
+
+					<h2>04. Table</h2>
+					<table class="table-responsive">
+						<thead>
+							<tr>
+								<th>Company</th>
+								<th>Contact</th>
+								<th>Country</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td data-title="Company">Alfreds Futterkiste</td>
+								<td data-title="Contact">Maria Anders</td>
+								<td data-title="Country">Germany</td>
+							</tr>
+							<tr>
+								<td data-title="Company">Ernst Handel</td>
+								<td data-title="Contact">Roland Mendel</td>
+								<td data-title="Country">Austria</td>
+							</tr>
+							<tr>
+								<td data-title="Company">Island Trading</td>
+								<td data-title="Contact">Helen Bennett</td>
+								<td data-title="Country">UK</td>
+							</tr>
+							<tr>
+								<td data-title="Company">Magazzini Alimentari Riuniti</td>
+								<td data-title="Contact">Giovanni Rovelli</td>
+								<td data-title="Country">Italy</td>
+							</tr>
+						</tbody>
+					</table>
+
+					<h2>05. Buttons</h2>
+					<p class="no-margin-bottom"><a href="#" class="button">Regular</a> <a href="#" class="button button-filled">Filled</a> <a href="#" class="button button-primary">Primary</a> <a href="#" class="button button-secondary">Secondary</a> <a href="#" class="button button-highlight"><em class="mdi mdi-information-outline"></em> Info</a> <a href="#" class="button button-small">Small</a> <a href="#" class="button button-small button-filled">Small filled</a> <a href="#" class="button button-small button-primary">Small primary</a> <a href="#" class="button button-small button-secondary">Small sec.</a> <a href="#" class="button button-small button-highlight"><em class="mdi mdi-open-in-new"></em> Small icon</a></p>
+
+					<h2>06. Media</h2>
+					<div class="block-video style-custom parallax-hover">
+						<video id="sample-video" src="https://html.liviucerchez.com/katerina/tmp/sample-featured-video.mp4" poster="https://html.liviucerchez.com/katerina/tmp/sample-featured-video.jpg" preload="auto" muted width="1280" height="720"></video>
+						<h4 class="video-title">Custom video player</h4>
+						<a href="#sample-video" class="video-playback"><span class="controls"><span class="progress"></span><em class="mdi mdi-play"></em><em class="mdi mdi-pause"></em></span></a>
+					</div>
+
+					<div class="block-gallery columns-3 parallax-hover-children">
+						<figure class="block-image">
+							<a href="tmp/sample-400x600.jpg" data-fancybox="test-gallery"><img src="tmp/sample-400x600.jpg" width="200" height="300" alt=""></a>
+						</figure>
+						<figure class="block-image">
+							<a href="tmp/sample-400x600.jpg" data-fancybox="test-gallery"><img src="tmp/sample-400x600.jpg" width="200" height="300" alt=""></a>
+						</figure>
+						<figure class="block-image">
+							<a href="tmp/sample-400x600.jpg" data-fancybox="test-gallery"><img src="tmp/sample-400x600.jpg" width="200" height="300" alt=""></a>
+						</figure>
+					</div>
+
+					<h2>07. Tabs</h2>
+					<div class="block-tabs">
+						<ul>
+							<li><a href="#tab-information" class="is-active">Information</a></li>
+							<li><a href="#tab-additional">Additional data</a></li>
+						</ul>
+						<div id="tab-information" class="block-tab-content is-active">
+							<p>Once deposited funds are added to your Investor Account, you will receive a confirmation e-mail and will be able to chicory earthnut pea potato make investments.</p>
+						</div>
+						<div id="tab-additional" class="block-tab-content">
+							<p>We keep investors money segregated from funds for business operations. You can withdraw funds that are not invested in loans from your investor account to your account at any time.</p>
+						</div>
+					</div>
+					<div class="block-tabs style-minimal">
+						<ul>
+							<li><a href="#tab-information-minimal">Minimal</a></li>
+							<li><a href="#tab-additional-minimal" class="is-active">And simple</a></li>
+						</ul>
+						<div id="tab-information-minimal" class="block-tab-content">
+							<p>Once deposited funds are added to your Investor Account, you will receive a confirmation e-mail and will be able to chicory earthnut pea potato make investments.</p>
+						</div>
+						<div id="tab-additional-minimal" class="block-tab-content is-active">
+							<p>We keep investors money segregated from funds for business operations. You can withdraw funds that are not invested in loans from your investor account to your account at any time.</p>
+						</div>
+					</div>
+
+					<h2>08. Collapsibles</h2>
+					<div class="block-columns">
+						<div class="block-column">
+							<h4>Expandables</h4>
+							<div class="block-collapses">
+								<div class="block-collapse">
+									<a href="#collapse-1">Open a collapsible box</a>
+									<div id="collapse-1">
+										<div class="inner">
+											<p>Some collapsible content. Click the button to toggle between showing and hiding the collapsible content.</p>
+										</div>
+									</div>
+								</div>
+								<div class="block-collapse is-opened">
+									<a href="#collapse-2">And another one</a>
+									<div id="collapse-2">
+										<div class="inner">
+											<p>Travelling day in and day out. Everything needs to be planned out perfectly and we can help you complete your vision.</p>
+										</div>
+									</div>
+								</div>
+								<div class="block-collapse">
+									<a href="#collapse-3">A third collapsible</a>
+									<div id="collapse-3">
+										<div class="inner">
+											<p>Everything needs to be planned out perfectly and we can help you complete your vision.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="block-column">
+							<h4>Accordion</h4>
+							<div class="block-collapses style-accordion">
+								<div class="block-collapse is-opened">
+									<a href="#collapse-4">Accordion item</a>
+									<div id="collapse-4">
+										<div class="inner">
+											<p>This is an accordion style of collapsible content. Opening a collapsible will close the other ones in the group.</p>
+										</div>
+									</div>
+								</div>
+								<div class="block-collapse">
+									<a href="#collapse-5">Another one that collapses</a>
+									<div id="collapse-5">
+										<div class="inner">
+											<p>Travelling day in and day out. Everything needs to be planned out perfectly and we can help you complete your vision.</p>
+										</div>
+									</div>
+								</div>
+								<div class="block-collapse">
+									<a href="#collapse-6">The last one for now</a>
+									<div id="collapse-6">
+										<div class="inner">
+											<p>Everything needs to be planned out perfectly and we can help you complete your vision.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<h4 class="no-margin-top">FAQ</h4>
+					<div class="block-collapses style-minimal">
+						<div class="block-collapse">
+							<a href="#faq-1">Frequent asked question?</a>
+							<div id="faq-1">
+								<div class="inner">
+									<p>This is an accordion style of collapsible content with a minimal style. Opening a collapsible will close the other ones in the group.</p>
+								</div>
+							</div>
+						</div>
+						<div class="block-collapse">
+							<a href="#faq-2">Another question of upmost interest?</a>
+							<div id="faq-2">
+								<div class="inner">
+									<p>Travelling day in and day out. Everything needs to be planned out perfectly and we can help you complete your vision.</p>
+								</div>
+							</div>
+						</div>
+						<div class="block-collapse">
+							<a href="#faq-3">The last one for now</a>
+							<div id="faq-3">
+								<div class="inner">
+									<p>Everything needs to be planned out perfectly and we can help you complete your vision.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<h2>09. Alignment</h2>
+					<p><strong>The image block can be left, right or center aligned.</strong> Interactively drive long-term high-impact process improvements after robust e-commerce. Intrinsicly deploy granular technologies after client-centric growth strategies. Authoritatively embrace.</p>
+					<h4>Wide image</h4>
+					<figure class="block-image alignwide parallax-hover">
+						<a href="tmp/sample-1400x900.jpg" data-fancybox><img src="tmp/sample-1400x900.jpg" width="1400" height="900" alt=""></a>
+					</figure>
+					<h4>Left aligned image</h4>
+					<figure class="block-image alignleft parallax-hover">
+						<a href="tmp/sample-400x600.jpg" data-fancybox><img src="tmp/sample-400x600.jpg" width="200" height="300" alt=""></a>
+						<figcaption class="caption-text">Adipiscing arcu etiam</figcaption>
+					</figure>
+					<p>Objectively morph e-business synergy through prospective markets. Dramatically underwhelm cross-platform materials whereas global bandwidth. Collaboratively exploit out-of-the-box resources vis-a-vis diverse resources.Credibly streamline proactive scenarios through scalable channels. Quickly reconceptualize flexible processes. Vivamus cursus tempor sem, et pulvinar velit egestas. Nunc eleifend felis porttitor libero volutpat, porta feugiat ex ornare. Quisque sit amet lorem. &nbsp;Nunc eleifend felis porttitor libero volutpat, porta feugiat ex ornare. Quisque sit amet lorem nulla. Nulla convallis placerat dui et sagittis. Maecenas sagittis sem arcu. Fusce rhoncus elementum rutrum. Mauris aliquet sapien et mauris tristique lobortis. Aenean at dictum ligula, id semper velit.</p>
+					<h4>Right aligned image</h4>
+					<figure class="block-image alignright parallax-hover">
+						<a href="tmp/sample-400x600.jpg" data-fancybox><img src="tmp/sample-400x600.jpg" width="200" height="300" alt=""></a>
+						<figcaption class="caption-text">Aliquam enim ut</figcaption>
+					</figure>
+					<p>Nullam venenatis viverra mauris vel volutpat. Sed egestas tortor in massa efficitur, et posuere tellus ornare. Ut id enim ante. Donec vehicula diam in lacus fermentum, vel pulvinar ligula hendrerit. Phasellus dignissim odio vel mauris sodales, eget suscipit nibh aliquam. Phasellus rutrum risus eget lectus mollis, et ultrices leo ultricies. Vivamus cursus tempor sem, et pulvinar velit egestas. Nunc eleifend felis porttitor libero volutpat, porta feugiat ex ornare. Quisque sit amet lorem. &nbsp;Nunc eleifend felis porttitor libero volutpat, porta feugiat ex ornare. Quisque sit amet lorem nulla. Nulla convallis placerat dui et sagittis. Maecenas sagittis sem arcu. Fusce rhoncus elementum rutrum.</p>
+				</div>
+			</div>
+		</div>
+
+		<footer class="site-footer-gallery">
+			<div class="wrapper">
+				<a href="https://instagram.com/liviucerchez/" target="_blank" class="intro-gallery">
+					<span class="intro-gallery-title">Find more personal moments <span class="highlight">on Instagram</span></span>
+					<em class="intro-gallery-username">@liviucerchez</em>
+				</a>
+				<div class="gallery-photo">
+					<a href="https://instagram.com/liviucerchez/" target="_blank">
+						<img src="tmp/sample-500x500.jpg" loading="lazy" alt="">
+						<span class="data">
+							<span class="meta">
+								<span class="likes"><em class="mdi mdi-heart-outline"></em> <strong class="count">3</strong></span>
+							</span>
+						</span>
+					</a>
+				</div>
+				<div class="gallery-photo">
+					<a href="https://instagram.com/liviucerchez/" target="_blank">
+						<img src="tmp/sample-500x500.jpg" loading="lazy" alt="">
+						<span class="data">
+							<span class="meta">
+								<span class="likes"><em class="mdi mdi-heart-outline"></em> <strong class="count">5</strong></span>
+							</span>
+						</span>
+					</a>
+				</div>
+				<div class="gallery-photo">
+					<a href="https://instagram.com/liviucerchez/" target="_blank">
+						<img src="tmp/sample-500x500.jpg" loading="lazy" alt="">
+						<span class="data">
+							<span class="meta">
+								<span class="likes"><em class="mdi mdi-heart-outline"></em> <strong class="count">5</strong></span>
+							</span>
+						</span>
+					</a>
+				</div>
+				<div class="gallery-photo">
+					<a href="https://instagram.com/liviucerchez/" target="_blank">
+						<img src="tmp/sample-500x500.jpg" loading="lazy" alt="">
+						<span class="data">
+							<span class="meta">
+								<span class="likes"><em class="mdi mdi-heart-outline"></em> <strong class="count">2</strong></span>
+							</span>
+						</span>
+					</a>
+				</div>
+				<div class="gallery-photo">
+					<a href="https://instagram.com/liviucerchez/" target="_blank">
+						<img src="tmp/sample-500x500.jpg" loading="lazy" alt="">
+						<span class="data">
+							<span class="meta">
+								<span class="likes"><em class="mdi mdi-heart-outline"></em> <strong class="count">2</strong></span>
+							</span>
+						</span>
+					</a>
+				</div>
+				<div class="gallery-photo">
+					<a href="https://instagram.com/liviucerchez/" target="_blank">
+						<img src="tmp/sample-500x500.jpg" loading="lazy" alt="">
+						<span class="data">
+							<span class="meta">
+								<span class="likes"><em class="mdi mdi-heart-outline"></em> <strong class="count">2</strong></span>
+							</span>
+						</span>
+					</a>
+				</div>
+				<div class="gallery-photo">
+					<a href="https://instagram.com/liviucerchez/" target="_blank">
+						<img src="tmp/sample-500x500.jpg" loading="lazy" alt="">
+						<span class="data">
+							<span class="meta">
+								<span class="likes"><em class="mdi mdi-heart-outline"></em> <strong class="count">9</strong></span>
+							</span>
+						</span>
+					</a>
+				</div>
+				<div class="gallery-photo">
+					<a href="https://instagram.com/liviucerchez/" target="_blank">
+						<img src="tmp/sample-500x500.jpg" loading="lazy" alt="">
+						<span class="data">
+							<span class="meta">
+								<span class="likes"><em class="mdi mdi-heart-outline"></em> <strong class="count">12</strong></span>
+							</span>
+						</span>
+					</a>
+				</div>
+				<a href="https://instagram.com/liviucerchez/" target="_blank" class="outro-gallery"><span>Don't miss daily inspiration and updates</span></a>
+			</div>
+		</footer>
+
+		<footer class="site-footer">
+			<a id="scroll-to-top" class="scroll-to-top" href="#top-header" title="To the top"><em class="mdi mdi-chevron-up"></em></a>
+			<div class="widget-area">
+				<div class="widget widget_logo">
+					<a href="index.html" class="footer-title"><img src="assets/images/logo-footer.png" class="custom-logo" width="40" height="40" alt="Katerina"></a>
+				</div>
+				<div class="widget widget_nav_menu">
+					<nav class="social-navigation">
+						<ul id="social-menu" class="menu">
+							<li><a href="https://instagram.com"><span class="screen-reader-text">Instagram profile</span></a></li>
+							<li><a href="https://facebook.com"><span class="screen-reader-text">Facebook profile</span></a></li>
+							<li><a href="https://twitter.com"><span class="screen-reader-text">Twitter profile</span></a></li>
+							<li><a href="https://youtube.com"><span class="screen-reader-text">YouTube page</span></a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="widget widget_text">
+					<div class="textwidget">
+						<p>My goal is to tell stories through images and express my viewpoints through art, showcasing fashion, studio work, travel and nature.</p>
+					</div>
+				</div>
+				<div class="widget widget_nav_menu">
+					<nav class="footer-useful-links">
+						<ul class="menu">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="portfolio.html">Portfolio</a></li>
+							<li><a href="shop.html">Shop</a></li>
+							<li><a href="blog.html">Blog</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<script src="assets/js/jquery.slim.min.js"></script>
+	<script src="assets/js/fancybox.min.js"></script>
+	<script src="assets/js/functions.js"></script>
+</body>
+</html>

@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+	<title>Browse products - Katerina</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<script src="assets/js/detect-support.js"></script>
+	<link rel="shortcut icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgAQMAAABJtOi3AAAABlBMVEUAAADxUi3cM8OLAAAAAXRSTlMAQObYZgAAAB5JREFUCNdjAIP6B+z/0IkKBgY53ATJAL95WF0AAgAxXBopwtkWFwAAAABJRU5ErkJggg==">
+	<link rel="stylesheet" href="assets/css/materialdesignicons.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="navbar-sticky">
+	<a href="#header-title" class="skip-link screen-reader-text">Skip to the content</a>
+
+	<div class="main-content-wrapper">
+		<header id="top-header" class="site-header">
+			<div class="wrapper">
+				<div class="site-identity">
+					<h1>
+						<a href="index.html" class="site-title"><img src="assets/images/logo.png" class="custom-logo" width="115" height="40" alt="Katerina"></a>
+					</h1>
+					<p class="site-description screen-reader-text">Portfolio &amp; Photography Template</p>
+				</div>
+				<div id="menu-toggle" class="mobile-menu-toggle">
+					<a href="#menu-main" title="Toggle menu"><em class="mdi mdi-menu"></em><em class="mdi mdi-close"></em></a>
+				</div>
+				<nav class="main-navigation">
+					<ul id="menu-main" class="menu">
+						<li class="menu-item-has-children">
+							<a href="index.html">Home</a>
+							<ul class="sub-menu">
+								<li><a href="index.html">Displacement slider</a></li>
+								<li><a href="index-image.html">Parallax image</a></li>
+								<li><a href="index-video.html">Parallax video</a></li>
+							</ul>
+						</li>
+						<li class="menu-item-has-children">
+							<a href="portfolio.html">Portfolio</a>
+							<ul class="sub-menu">
+								<li><a href="portfolio.html">Grid + Justified</a></li>
+								<li><a href="portfolio-justified.html">Justified gallery</a></li>
+								<li><a href="portfolio-sequential.html">Sequential with filters</a></li>
+								<li><a href="single-project.html">Single project</a></li>
+							</ul>
+						</li>
+						<li class="menu-item-has-children current-menu-parent">
+							<a href="shop.html">Shop</a>
+							<ul class="sub-menu">
+								<li><a href="shop.html">Right sidebar (2 cols)</a></li>
+								<li class="current-menu-item"><a href="shop-wide.html">Fullwidth (3 cols)</a>
+								<li><a href="shop-checkout.html">Checkout</a>
+								<li><a href="shop-cart.html">Cart</a>
+								<li><a href="single-product.html">Single product</a></li>
+							</ul>
+						</li>
+						<li class="menu-item-has-children">
+							<a href="blog.html">Blog</a>
+							<ul class="sub-menu">
+								<li><a href="blog.html">Blog with sidebar</a></li>
+								<li><a href="single-post.html">Regular blog post</a></li>
+							</ul>
+						</li>
+						<li class="menu-item-has-children">
+							<a href="styleguide.html">Features</a>
+							<ul class="sub-menu">
+								<li><a href="styleguide.html">Styleguide</a></li>
+								<li class="menu-item-has-children">
+									<a href="#">Submenus</a>
+									<ul class="sub-menu">
+										<li><a href="#">Submenu item 1</a></li>
+										<li><a href="#">Submenu item 2</a></li>
+										<li><a href="#">Submenu item 3</a></li>
+									</ul>
+								</li>
+								<li><a href="404.html">404 not found</a></li>
+							</ul>
+						</li>
+						<li><a href="contact.html">Contact</a></li>
+						<li class="menu-item-scheme">
+							<a href="#" title="Toggle color scheme"><em class="mdi mdi-weather-night"></em><em class="mdi mdi-weather-sunny"></em><span>Toggle color scheme</span></a>
+						</li>
+						<li class="menu-item-cart">
+							<a href="shop-cart.html" title="Shopping cart"><em class="mdi mdi-cart-outline"></em><span class="cart-text">Shopping cart</span><span class="cart-total">3</span></a>
+						</li>
+						<li class="menu-item-search">
+							<a href="#searchform" title="Toggle search"><em class="mdi mdi-magnify"></em><em class="mdi mdi-close"></em></a>
+							<form class="searchform" method="get" action="index.html" role="search">
+								<label class="screen-reader-text">Search for:</label>
+								<input type="search" value="" name="s" placeholder="Search&hellip;">
+								<button type="submit"><em class="mdi mdi-magnify"></em><span class="screen-reader-text">Search</span></button>
+							</form>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<header id="header-title" class="page-title">
+			<div class="wrapper">
+				<h1 class="entry-title display">Shop</h1>
+				<h6 class="tagline">Fullwidth product gallery</h6>
+			</div>
+		</header>
+
+		<div id="content" class="site-content">
+			<div class="wrapper">
+				<div class="entry-content">
+					<div class="alignwide">
+						<div class="shop-filters">
+							<p class="shop-result-count">Showing 7&mdash;12 of 18 results</p>
+							<form class="shop-ordering" method="get">
+								<select name="orderby" class="orderby" aria-label="Shop order">
+									<option value="menu_order" selected="selected">Default sorting</option>
+									<option value="popularity">Sort by popularity</option>
+									<option value="rating">Sort by average rating</option>
+									<option value="date">Sort by latest</option>
+									<option value="price">Sort by price: low to high</option>
+									<option value="price-desc">Sort by price: high to low</option>
+								</select>
+							</form>
+							<form action="shop.html" method="get" class="searchform" role="search">
+								<label class="screen-reader-text">Search for:</label>
+								<input type="search" value="" name="s" placeholder="Search products&hellip;">
+								<button type="submit"><em class="mdi mdi-magnify"></em><span class="screen-reader-text">Search</span></button>
+							</form>
+						</div>
+						<ul class="products columns-3">
+							<li class="product">
+								<div class="product-thumbnail">
+									<a href="single-product.html">
+										<img src="tmp/sample-product-640x640.jpg" width="640" height="640" alt>
+										<img class="secondary" src="tmp/sample-product-640x640-alt.jpg" width="640" height="640" alt>
+									</a>
+									<a href="shop-cart.html" class="button button-primary add_to_cart_button">Add to cart</a>
+								</div>
+								<h2 class="product-title">
+									<a href="single-product.html">Backback</a>
+									<span class="price"><span class="shop-price-currency">$</span>199.00</span>
+								</h2>
+							</li>
+							<li class="product">
+								<div class="product-thumbnail">
+									<a href="single-product.html">
+										<img src="tmp/sample-product-640x640.jpg" width="640" height="640" alt>
+										<img class="secondary" src="tmp/sample-product-640x640-alt.jpg" width="640" height="640" alt>
+										<span class="onsale">On sale</span>
+									</a>
+									<a href="shop-cart.html" class="button button-primary add_to_cart_button">Add to cart</a>
+								</div>
+								<h2 class="product-title">
+									<a href="single-product.html">Bomber Jacket</a>
+									<span class="price">
+										<del><span class="shop-price-currency">$</span>89.00</del>
+										<ins><span class="shop-price-currency">$</span>69.00</ins>
+									</span>
+								</h2>
+							</li>
+							<li class="product">
+								<div class="product-thumbnail">
+									<a href="single-product.html">
+										<img src="tmp/sample-product-640x640.jpg" width="640" height="640" alt>
+										<img class="secondary" src="tmp/sample-product-640x640-alt.jpg" width="640" height="640" alt>
+									</a>
+									<a href="shop-cart.html" class="button button-primary add_to_cart_button">Add to cart</a>
+								</div>
+								<h2 class="product-title">
+									<a href="single-product.html">Modern Chair</a>
+									<span class="price"><span class="shop-price-currency">$</span>179.00</span>
+								</h2>
+							</li>
+							<li class="product">
+								<div class="product-thumbnail">
+									<a href="single-product.html">
+										<img src="tmp/sample-product-640x640.jpg" width="640" height="640" alt>
+										<img class="secondary" src="tmp/sample-product-640x640-alt.jpg" width="640" height="640" alt>
+									</a>
+									<a href="shop-cart.html" class="button button-primary add_to_cart_button">Add to cart</a>
+								</div>
+								<h2 class="product-title">
+									<a href="single-product.html">Hands Clock</a>
+									<span class="price"><span class="shop-price-currency">$</span>39.00</span>
+								</h2>
+							</li>
+							<li class="product">
+								<div class="product-thumbnail">
+									<a href="single-product.html">
+										<img src="tmp/sample-product-640x640.jpg" width="640" height="640" alt>
+										<img class="secondary" src="tmp/sample-product-640x640-alt.jpg" width="640" height="640" alt>
+									</a>
+									<a href="shop-cart.html" class="button button-primary add_to_cart_button">Add to cart</a>
+								</div>
+								<h2 class="product-title">
+									<a href="single-product.html">Peek Table Lamp</a>
+									<span class="price"><span class="shop-price-currency">$</span>225.00</span>
+								</h2>
+							</li>
+							<li class="product">
+								<div class="product-thumbnail">
+									<a href="single-product.html">
+										<img src="tmp/sample-product-640x640.jpg" width="640" height="640" alt>
+										<img class="secondary" src="tmp/sample-product-640x640-alt.jpg" width="640" height="640" alt>
+										<span class="onsale">On sale</span>
+									</a>
+									<a href="shop-cart.html" class="button button-primary add_to_cart_button">Add to cart</a>
+								</div>
+								<h2 class="product-title">
+									<a href="single-product.html">BN0021 – Men’s</a>
+									<span class="price">
+										<del><span class="shop-price-currency">$</span>174.00</del>
+										<ins><span class="shop-price-currency">$</span>159.00</ins>
+									</span>
+								</h2>
+							</li>
+						</ul>
+						<nav class="pagination">
+							<a class="prev page-numbers" href="shop.html">Previous</a>
+							<a class="page-numbers" href="shop.html">1</a>
+							<span class="page-numbers current">2</span>
+							<a class="page-numbers" href="shop.html">3</a>
+							<a class="next page-numbers" href="shop.html">Next</a>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="site-footer-gallery">
+			<div class="wrapper">
+				<a href="https://instagram.com/liviucerchez/" target="_blank" class="intro-gallery">
+					<span class="intro-gallery-title">Find more personal moments <span class="highlight">on Instagram</span></span>
+					<em class="intro-gallery-username">@liviucerchez</em>
+				</a>
+				<div class="gallery-photo">
+					<a href="https://instagram.com/liviucerchez/" target="_blank">
+						<img src="tmp/sample-500x500.jpg" loading="lazy" alt="">
+						<span class="data">
+							<span class="meta">
+								<span class="likes"><em class="mdi mdi-heart-outline"></em> <strong class="count">3</strong></span>
+							</span>
+						</span>
+					</a>
+				</div>
+				<div class="gallery-photo">
+					<a href="https://instagram.com/liviucerchez/" target="_blank">
+						<img src="tmp/sample-500x500.jpg" loading="lazy" alt="">
+						<span class="data">
+							<span class="meta">
+								<span class="likes"><em class="mdi mdi-heart-outline"></em> <strong class="count">5</strong></span>
+							</span>
+						</span>
+					</a>
+				</div>
+				<div class="gallery-photo">
+					<a href="https://instagram.com/liviucerchez/" target="_blank">
+						<img src="tmp/sample-500x500.jpg" loading="lazy" alt="">
+						<span class="data">
+							<span class="meta">
+								<span class="likes"><em class="mdi mdi-heart-outline"></em> <strong class="count">5</strong></span>
+							</span>
+						</span>
+					</a>
+				</div>
+				<div class="gallery-photo">
+					<a href="https://instagram.com/liviucerchez/" target="_blank">
+						<img src="tmp/sample-500x500.jpg" loading="lazy" alt="">
+						<span class="data">
+							<span class="meta">
+								<span class="likes"><em class="mdi mdi-heart-outline"></em> <strong class="count">2</strong></span>
+							</span>
+						</span>
+					</a>
+				</div>
+				<div class="gallery-photo">
+					<a href="https://instagram.com/liviucerchez/" target="_blank">
+						<img src="tmp/sample-500x500.jpg" loading="lazy" alt="">
+						<span class="data">
+							<span class="meta">
+								<span class="likes"><em class="mdi mdi-heart-outline"></em> <strong class="count">2</strong></span>
+							</span>
+						</span>
+					</a>
+				</div>
+				<div class="gallery-photo">
+					<a href="https://instagram.com/liviucerchez/" target="_blank">
+						<img src="tmp/sample-500x500.jpg" loading="lazy" alt="">
+						<span class="data">
+							<span class="meta">
+								<span class="likes"><em class="mdi mdi-heart-outline"></em> <strong class="count">2</strong></span>
+							</span>
+						</span>
+					</a>
+				</div>
+				<div class="gallery-photo">
+					<a href="https://instagram.com/liviucerchez/" target="_blank">
+						<img src="tmp/sample-500x500.jpg" loading="lazy" alt="">
+						<span class="data">
+							<span class="meta">
+								<span class="likes"><em class="mdi mdi-heart-outline"></em> <strong class="count">9</strong></span>
+							</span>
+						</span>
+					</a>
+				</div>
+				<div class="gallery-photo">
+					<a href="https://instagram.com/liviucerchez/" target="_blank">
+						<img src="tmp/sample-500x500.jpg" loading="lazy" alt="">
+						<span class="data">
+							<span class="meta">
+								<span class="likes"><em class="mdi mdi-heart-outline"></em> <strong class="count">12</strong></span>
+							</span>
+						</span>
+					</a>
+				</div>
+				<a href="https://instagram.com/liviucerchez/" target="_blank" class="outro-gallery"><span>Don't miss daily inspiration and updates</span></a>
+			</div>
+		</footer>
+
+		<footer class="site-footer">
+			<a id="scroll-to-top" class="scroll-to-top" href="#top-header" title="To the top"><em class="mdi mdi-chevron-up"></em></a>
+			<div class="widget-area">
+				<div class="widget widget_logo">
+					<a href="index.html" class="footer-title"><img src="assets/images/logo-footer.png" class="custom-logo" width="40" height="40" alt="Katerina"></a>
+				</div>
+				<div class="widget widget_nav_menu">
+					<nav class="social-navigation">
+						<ul id="social-menu" class="menu">
+							<li><a href="https://instagram.com"><span class="screen-reader-text">Instagram profile</span></a></li>
+							<li><a href="https://facebook.com"><span class="screen-reader-text">Facebook profile</span></a></li>
+							<li><a href="https://twitter.com"><span class="screen-reader-text">Twitter profile</span></a></li>
+							<li><a href="https://youtube.com"><span class="screen-reader-text">YouTube page</span></a></li>
+						</ul>
+					</nav>
+				</div>
+				<div class="widget widget_text">
+					<div class="textwidget">
+						<p>My goal is to tell stories through images and express my viewpoints through art, showcasing fashion, studio work, travel and nature.</p>
+					</div>
+				</div>
+				<div class="widget widget_nav_menu">
+					<nav class="footer-useful-links">
+						<ul class="menu">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="portfolio.html">Portfolio</a></li>
+							<li class="current-menu-item"><a href="shop.html">Shop</a></li>
+							<li><a href="blog.html">Blog</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<script src="assets/js/jquery.slim.min.js"></script>
+	<script src="assets/js/functions.js"></script>
+</body>
+</html>
